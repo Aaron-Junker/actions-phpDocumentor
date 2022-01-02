@@ -14,7 +14,7 @@ Create `phpdoc.dist.xml` in your root folder and use the step into your Github w
 
 ```yaml
 - name: PhpDocumentor
-  uses: gpupo/actions-phpDocumentor@1.0
+  uses: aaron-junker/actions-phpDocumentor@1.0
   with:
     dir: './'
 ```
