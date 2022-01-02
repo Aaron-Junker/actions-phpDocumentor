@@ -4,7 +4,7 @@ set -e
 PHP_FULL_VERSION=$(php -r 'echo phpversion();')
 
 if [ -z "$1" ]; then
-  ROOT_DIR="."
+  ROOT_DIR=$GITHUB_WORKSPACE
 else
   ROOT_DIR="$1"
 fi
